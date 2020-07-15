@@ -39,6 +39,7 @@ class Song
         genre_songs[key] =1
       end
     end
+    genre_songs
   end
   
   #create an empty hash 

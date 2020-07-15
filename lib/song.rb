@@ -42,12 +42,8 @@ class Song
     genre_songs
   end
   
-  #create an empty hash 
-  #returns the keys into the hash 
-  #keys point to values of each genre
-  #check to see if the hash already has a value, if so increment it +1 
-  #if not, create a new key/value pair 
-  
+  def self.artist_count
+    
   
   
   

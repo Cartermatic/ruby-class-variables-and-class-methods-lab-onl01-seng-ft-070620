@@ -34,7 +34,7 @@ class Song
     genre_songs = {}
     @@genres.each do |key|
       if @@genres.include?(value) >=1
-        genre_songs[] << 
+        genre_songs[key]
       end
     end
   end
